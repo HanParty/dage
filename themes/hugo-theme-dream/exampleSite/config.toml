@@ -1,10 +1,10 @@
-baseurl = "https://dage.ga"
+baseurl = "https://example.com"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "Dage.ga大哥.嘎"
+title = "Hugo Theme Dream"
 theme = "hugo-theme-dream"
 
-# copyright = "Dage.ga大哥.嘎"
+# copyright = ""
 
 # googleAnalytics = ""
 
@@ -25,11 +25,11 @@ theme = "hugo-theme-dream"
   # darkNav = true
   # dark404 = true
 
-  author = "Dage"
+  author = "Yue Yang"
   # description = ""
   avatar = "/img/avatar.jpg"
   # headerTitle = ""
-  motto = "有事找大哥You shi zhao dage"
+  motto = "Motto"
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
@@ -43,7 +43,7 @@ theme = "hugo-theme-dream"
   # LEANCLOUD_APP_ID = ""
   # LEANCLOUD_APP_KEY = ""
 
-  email = "damingguoa@gmail.com"
+  email = "g1enyy0ung@gmail.com"
   # twitter = ""
   # facebook = ""
   # instagram = ""
