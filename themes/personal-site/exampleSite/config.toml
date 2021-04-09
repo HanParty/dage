@@ -1,23 +1,23 @@
-baseURL                       = "https://dage.ga/"
+baseURL                       = "https://example.com/"
 languageCode                  = "id"
-title                         = "大哥 Dage"
+title                         = "Wisnuwiry"
 theme                         = "personal-site"
 summaryLength                 = 10
 
 [Author] # Used in authorbox
-  name                        = "大哥 Dage"
-  bio                         = "大哥 Dage"
+  name                        = "Jhon Doe"
+  bio                         = ""
   avatar                      = "img/avatar.webp"
-  job                         = "游民"
-  gender                      = "男"
-  email                       = "dage@gmail.com"
+  job                         = "Software Engineer"
+  gender                      = "male"
+  email                       = "jhon-doe@gmail.com"
 
 
 [Params]
-  subTitle                    = "有事没事找大哥If you have something to do, please ask elder brother"
+  subTitle                    = "Personal site, Blog, and Portfolio"
   description                 = "Sebuah catatan dan blog pribadi saya. Saya juga akan membagi tentang pengalaman saya dan teknologi-teknolgi yang saya gunakan/pelajari atau yang sedang populer." # Site Description. Used in meta description
   images                      = ["img/avatar.webp"]
-  copyright                   = "大哥 Dage" # 有事找大哥
+  copyright                   = "Wisnuwiry" # Copyright holder, otherwise will use .Site.Title
   opengraph                   = true # Enable OpenGraph if true
   twitter_cards               = true # Enable Twitter Cards if true
   mainSections                = ["post"] # Set main page sections
@@ -44,10 +44,10 @@ summaryLength                 = 10
   # Google Search custom, more info: https://cse.google.com/cse/all
   customSearchId              = "004021659876411083349:a2ysxpichpc"
 
-  endMessagePost              = "大哥 "
+  endMessagePost              = "Wrong content? "
   
   # Link repo to edit content
-  editContentPageLink         = ""
+  editContentPageLink         = "https://github.com/wisnuwiry/blog-v2/edit/master/content/"
   
   # Formspree form contact id, more info: https://cse.google.com/cse/all
   formspreeId                 = ""
@@ -55,8 +55,8 @@ summaryLength                 = 10
 
 
 [Params.Hero]
-  title                       = "有事找大哥"
-  desc                        = "DAGE.GA 😃"
+  title                       = "A Personal Site By Jhon Doe"
+  desc                        = "Welcome to my Blog :)"
 
 [Params.Entry]
   meta                        = ["date", "categories"] # Enable meta fields in given order
@@ -73,31 +73,31 @@ summaryLength                 = 10
 [menu]
 
 [[menu.main]]
-identifier = "帖子"
+identifier = "Post"
 pre = "📝"
 url = "/post" 
 weight = 1 
 
 [[menu.main]]
-identifier = "文字"
+identifier = "Snippet"
 pre = "⚒️"
 url = "/snippet" 
 weight = 2 
 
 [[menu.main]]
-identifier = "项目"
+identifier = "Project"
 pre = "🚧"
 url = "/project" 
 weight = 3 
 
 [[menu.main]]
-identifier = "大哥"
+identifier = "About"
 pre = "😃"
 url = "/about" 
 weight = 4
 
 [[menu.main]]
-identifier = "联系"
+identifier = "Contact"
 pre = "🤙"
 url = "/contact" 
 weight = 5
@@ -107,13 +107,13 @@ weight = 5
   homeText                    = "Home" # Home node text
 
 [Params.Social]
-  twitter                     = " "
-  telegram                    = " "
-# instagram                   = " "
-  linkedin                    = " "
-  github                      = " "
-  gitlab                      = " "
-  medium                      = " "
+  twitter                     = "jhon-doe"
+  telegram                    = "jhon-doe"
+# instagram                   = "jhon-doe"
+  linkedin                    = "wisnu-saputra"
+  github                      = "jhon-doe"
+  gitlab                      = "jhon-doe"
+  medium                      = "jhon-doe"
 
 [Params.Share] # Entry Share block
   facebook                    = true
@@ -127,13 +127,13 @@ weight = 5
 # https://www.w3.org/TR/appmanifest/
 # https://developers.google.com/web/fundamentals/web-app-manifest/
 [Params.Manifest]
-  name                        = "大哥Dage"
-  shortName                   = "大哥Dage"
-  display                     = "大哥Dage"
+  name                        = "Wisnuwiry"
+  shortName                   = "Wisnuwiry"
+  display                     = "standalone"
   startUrl                    = "/?utm_source=homescreen"
   backgroundColor             = "#8dc153"
   themeColor                  = "#1da1f2"
-  description                 = "大哥Dage/dage.ga"
+  description                 = "Personal Site By Wisnuwiry"
   orientation                 = "portrait"
   scope                       = "/"
 
